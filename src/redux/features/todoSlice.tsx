@@ -11,3 +11,5 @@ export const todoSlice = createSlice({
     reducers: {}
 
 })
+
+export default todoSlice.reducer
