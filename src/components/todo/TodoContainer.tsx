@@ -1,4 +1,3 @@
-import TodoCard from "./TodoCard";
 
 const TodoContainer = () => {
     return (
@@ -7,8 +6,10 @@ const TodoContainer = () => {
                 <button>add todo </button>
                 <button>filter</button>
             </div>
-            <div className="bg-red-500 w-full h-[500px] rounded-xl p-5">
-                <TodoCard></TodoCard>
+            <div className="primary-gradient w-full h-full rounded-xl p-5 space-y-3">
+              {/* {  <div className="bg-white p-3 text-2xl font-semibold flex justify-center items-center">
+                    <p>There is no task panding</p>
+                </div>} */}
             </div>
         </div>
     );

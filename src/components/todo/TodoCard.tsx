@@ -6,7 +6,7 @@ const TodoCard = () => {
         <p>Todo title</p>
         <p>Time</p>
         <p>description</p>
-        <div className="">
+        <div className=" space-x-4">
             <button>del</button>
             <button>edit</button>
         </div>
